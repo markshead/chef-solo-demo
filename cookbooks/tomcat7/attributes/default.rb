@@ -1,6 +1,6 @@
 tc7target = "/usr/local"
 ##
-set[:tomcat7][:version] = "7.0.26"
+set[:tomcat7][:version] = "7.0.33"
 set[:tomcat7][:user] = "tomcat"
 set[:tomcat7][:group] = "tomcat"
 set[:tomcat7][:target] = "/usr/local"

@@ -17,7 +17,7 @@ tc7group = node["tomcat7"]["group"]
 remote_file "/tmp/#{tc7tarball}" do
     source "#{tc7url}"
     mode "0644"
-    checksum "00d310f2f4e15821951e9d206af45c6b"
+    checksum "09fcee978b5cff6becf5d22aef69bc6a"
 end
 
 # Create group
