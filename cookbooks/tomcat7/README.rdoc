@@ -1,0 +1,24 @@
+= DESCRIPTION:
+Installs Tomcat 7.0.26 using Apache's binaries downloaded from official website.
+= REQUIREMENTS:
+Require JRE
+= ATTRIBUTES:
+tc7target = "/usr/local" - sets the prefix
+##
+[:tomcat7][:version] # Tomcat's version
+[:tomcat7][:user] # Tomcat user 
+[:tomcat7][:group] # Tomcat group
+[:tomcat7][:target] # prefix
+##
+[:tomcat7][:port] # HTTP port
+[:tomcat7][:ssl_port] # SSLed port
+[:tomcat7][:ajp_port] # AJP port
+[:tomcat7][:java_options] # JAVA_OPTS for daemon init
+[:tomcat7][:use_security_manager]  # SecManager
+##
+[:tomcat7][:home] # CATALINA HOME
+[:tomcat7][:base] # BASE folder
+[:tomcat7][:config_dir] # Tomcat config folder
+[:tomcat7][:log_dir] # Logfile folder
+= USAGE:
+
