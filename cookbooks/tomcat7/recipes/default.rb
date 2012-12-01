@@ -95,6 +95,7 @@ template "#{tc7target}/tomcat/conf/server.xml" do
     owner "#{tc7user}"
     group "#{tc7group}"
     mode "0644"
+    notifies :restart, "service[tomcat7]"
 end
 
 # Start service
