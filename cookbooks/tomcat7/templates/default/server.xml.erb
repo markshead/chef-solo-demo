@@ -69,8 +69,7 @@
     -->
     <Connector port="<%= node[:tomcat7][:port] %>" protocol="HTTP/1.1"
                connectionTimeout="20000"
-               redirectPort="<%= node[:tomcat7][:ssl_port] %>" 
-			   server="Super Server"/>
+               redirectPort="<%= node[:tomcat7][:ssl_port] %>" />
     <!-- A "Connector" using the shared thread pool-->
     <!--
     <Connector executor="tomcatThreadPool"
