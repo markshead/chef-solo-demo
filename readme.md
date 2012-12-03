@@ -1,4 +1,5 @@
-High level instructions:
+You can watch a video of this demo here:
+http://blog.markshead.com/1173/chef-solo-demo-video/
 
 * Install Git
 
