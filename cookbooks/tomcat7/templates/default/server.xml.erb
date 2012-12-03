@@ -70,6 +70,7 @@
     <Connector port="<%= node[:tomcat7][:port] %>" protocol="HTTP/1.1"
                connectionTimeout="20000"
                redirectPort="<%= node[:tomcat7][:ssl_port] %>" 
+               server="chef demo server"
                />
     <!-- A "Connector" using the shared thread pool-->
     <!--
